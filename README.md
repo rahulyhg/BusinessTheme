@@ -1,9 +1,9 @@
 # Business Theme
 
-**Designed By:** James Apoefis
-**Developed By:** James Apoefis
-**Tested up to:** WordPress 4.8
-**Version:** 1.0
+**Designed By:** James Apoefis <br>
+**Developed By:** James Apoefis <br>
+**Tested up to:** WordPress 4.8 <br>
+**Version:** 1.0 <br>
 **Tags:** responsive, full-width, blog, left-sidebar, search-bar, comments
 
 ## Description
