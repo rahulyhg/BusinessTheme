@@ -1,0 +1,61 @@
+/* Default Styles
+---------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Header Styles
+---------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Body Styles
+---------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Footer Styles
+---------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Responsive Styles
+---------------------------------------------------------------------------------------------------- */
+
+/* Large Desktops - lg */
+@media (min-width: 1200px) { 
+
+	/* Place any styles specific to large destop screens here */
+  
+}
+
+/* Landscape Tablets / Small Desktops - md */
+@media (max-width: 1199px) { 
+
+	/* Place any styles that are specific to tablets and small desktops here */
+
+}
+
+/* Portrait Tablets - sm */
+@media (max-width: 991px) { 
+
+	/* Place any styles that are specific to portrait tablets here */
+
+}
+
+/* Landscape Mobile Phones - xs */
+@media (max-width: 767px) {
+
+	/* Place styles that are specific to landscape phones here */
+
+}
+
+/* Portrait Mobile Phones - xs */
+@media (max-width: 480px) { 
+
+	/* Place any styles that are specific to mobile phones here */
+
+}
