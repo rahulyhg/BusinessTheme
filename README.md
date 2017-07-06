@@ -12,7 +12,7 @@ Business Theme is a theme designed for oranisations that need a website that is 
 
 ## Screenshot
 
-![Front Page](screenshot.png?raw=true "Front Page")
+![Front Page](/assets/images/screenshot_small.png?raw=true "Front Page")
 
 ## Installation
 
