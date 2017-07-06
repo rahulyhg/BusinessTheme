@@ -10,6 +10,10 @@
 
 Business Theme is a theme designed for oranisations that need a website that is ready to go in minutes. This theme features multiple sections on the front page, navigation, a logo and more. The theme is also responsive, so it will look flawless on any device accessed on. This business theme has also been developed with accessibility at the fore-front to accommodate a wider audience.
 
+## Screenshot
+
+![Front Page](screenshot.png?raw=true "Front Page")
+
 ## Installation
 
 1. Download the repository and unzip the file.
