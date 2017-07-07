@@ -6,6 +6,23 @@
 	height: auto;
 }
 
+h1 {
+	font-weight: bold;
+	font-size: 2.5em;
+	color: #123c81;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: #000;
+}
+
+p {
+	font-family: "Verdana";
+	font-size: 1em;
+	line-height: 160%;
+}
+
 
 
 /* Header Styles
@@ -37,6 +54,7 @@
 
 .headerNav a {
 	text-decoration: none;
+	font-size: 1.1em;
 }
 
 .headerWrapper {
@@ -59,14 +77,90 @@
 /* Body Styles
 ---------------------------------------------------------------------------------------------------- */
 
+.pageTitle {
+	margin-bottom: 10px;
+}
+
+
+
+
+/* Sidebar Styles
+---------------------------------------------------------------------------------------------------- */
+
+.sidebarTitle {
+	color: #FFF;
+	background: #123c81;
+	padding: 5px 0 5px 20px;
+	font-size: 1.5em;
+}
+
+.sidebarBody {
+	background: #DEDDDD;
+	padding: 10px 20px 0 20px;
+	font-size: 1em;
+}
+
+.sidebarBody ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.sidebarBody ul li {
+	padding: 2px 0 2px 0;
+}
+
+.sidebarWrapper {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
 
 
 
 /* Footer Styles
 ---------------------------------------------------------------------------------------------------- */
 
+.footerWrapper {
+	background: #0b0b0b;
+	margin-top: 30px;
+	padding-top: 30px;
+}
 
+.footerNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
 
+.footerNav ul li {
+	color: #FFF;
+	padding: 15px 0 15px 0;
+}
+
+.socialMedia ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+}
+
+.socialMedia ul li {
+	display: inline;
+	padding-left: 5px;
+}
+
+.copyright {
+	border-top: 2px solid rgba(0, 56, 140, 0.5);
+}
+
+.copyright p {
+	margin: 20px 0 10px 0;
+	color: #FFF;
+	text-align: center;
+	font-size: 0.9em;
+}
 
 /* Responsive Styles
 ---------------------------------------------------------------------------------------------------- */

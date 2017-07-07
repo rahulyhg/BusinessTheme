@@ -72,7 +72,7 @@
 				
 				<div class="col-md-8">
 					
-					<h1>Page Title</h1>
+					<h1 class="pageTitle">Page Title</h1>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur placerat nisl nec volutpat. Mauris dictum ligula at libero vestibulum hendrerit. Vestibulum lobortis magna eget arcu iaculis sodales. Donec blandit suscipit tempor. Vivamus aliquet arcu vitae nisl pharetra condimentum. Cras viverra libero odio, sit amet hendrerit diam venenatis sed. In cursus laoreet mi vel molestie. Nulla quis pharetra elit, a scelerisque eros.</p>
 
@@ -86,13 +86,16 @@
 
 				</div>
 
+
+				<!--******************************************************* Start Sidebar Section *******************************************************-->
+
 				<div class="col-md-4">
 					
-					<div>
+					<div class="sidebarWrapper">
 							
-						<h2>Location</h2>
+						<h2 class="sidebarTitle">Location</h2>
 
-						<div>
+						<div class="sidebarBody">
 							
 							<p>2442 W Madison St, Chicago, IL, 60612, USA</p>
 
@@ -100,11 +103,11 @@
 	
 					</div>
 
-					<div>
+					<div class="sidebarWrapper">
 							
-						<h2>Opening Hours</h2>
+						<h2 class="sidebarTitle">Opening Hours</h2>
 
-						<div>
+						<div class="sidebarBody">
 							
 							<ul>
 								<li>Monday: 9am - 5pm</li>
@@ -120,11 +123,11 @@
 	
 					</div>
 
-					<div>
+					<div class="sidebarWrapper">
 							
-						<h2>Contact Us</h2>
+						<h2 class="sidebarTitle">Contact Us</h2>
 
-						<div>
+						<div class="sidebarBody">
 							
 							<ul>
 								<li>Phone</li>
@@ -149,66 +152,92 @@
 
 		<!--******************************************************* Start Footer Section *******************************************************-->
 		
-		<div class="container">
-			
-			<div class="row">
-				
-				<div class="col-md-3">
+		<div class="footerWrapper">
+
+			<footer>
+
+				<div class="container">
 					
-					<ul>
-
-						<li>Home</li>
-						<li>About</li>
-						<li>Contact</li>
-
-					</ul>
-
-				</div>
-
-				<div class="col-md-3">
-					
-					<ul>
-
-						<li>Products</li>
-						<li>Services</li>
+					<div class="row">
 						
-					</ul>
+						<div class="col-md-3">
 
-				</div>
+							<nav class="footerNav">
+							
+								<ul>
 
-				<div class="col-md-3">
-					
-					<ul>
+									<li>Home</li>
+									<li>About</li>
+									<li>Contact</li>
 
-						<li>Privacy Policy</li>
-						<li>Disclaimer</li>
-						<li>Site Map</li>
+								</ul>
+
+							</nav>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<nav class="footerNav">
+								
+								<ul>
+
+									<li>Products</li>
+									<li>Services</li>
+									
+								</ul>
+
+							</nav>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<nav class="footerNav">
+							
+								<ul>
+
+									<li>Privacy Policy</li>
+									<li>Disclaimer</li>
+									<li>Site Map</li>
+									
+								</ul>
+
+							</nav>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="socialMedia">
+							
+								<ul>
+
+									<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png" alt="Business on Facebook"></a></li>
+									<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png" alt="Business on Twitter"></a></li>
+									<li><a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/youtube.png" alt="Business on Youtube"></a></li>
+
+								</ul>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
 						
-					</ul>
+						<div class="col-md-12 copyright">
+							
+							<p>Copyright © 2017 Business Theme | All Rights Reserved | <a href="mailto:user@company.com">Webmaster</a></p>
+
+						</div>
+
+					</div>
 
 				</div>
 
-				<div class="col-md-3">
-					
-					<ul>
-						<li><img src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png" alt="Business on Facebook"></li>
-						<li><img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png" alt="Business on Twitter"></li>
-						<li><img src="<?php echo get_template_directory_uri();?>/assets/images/youtube.png" alt="Business on Youtube"></li>
-					</ul>
-
-				</div>
-
-			</div>
-
-			<div class="row">
-				
-				<div class="col-md-12">
-					
-					<p>Copyright © 2017 Business Theme | All Rights Reserved | <a href="mailto:user@company.com">Webmaster</a></p>
-
-				</div>
-
-			</div>
+			</footer>
 
 		</div>
 
