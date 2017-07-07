@@ -131,12 +131,12 @@
 							
 							<ul>
 								<li>Phone</li>
-								<li>+1 312-344-3759</li>
+								<li><a href="tel:+1 312-344-3759">+1 312-344-3759</a></li>
 							</ul>
 
 							<ul>
 								<li>Email</li>
-								<li>user@company.com</li>
+								<li><a href="mailto:user@company.com">user@company.com</a></li>
 							</ul>
 
 						</div>
@@ -154,7 +154,7 @@
 		
 		<div class="footerWrapper">
 
-			<footer>
+			<footer class="footer">
 
 				<div class="container">
 					
@@ -166,9 +166,9 @@
 							
 								<ul>
 
-									<li>Home</li>
-									<li>About</li>
-									<li>Contact</li>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Contact</a></li>
 
 								</ul>
 
@@ -182,8 +182,8 @@
 								
 								<ul>
 
-									<li>Products</li>
-									<li>Services</li>
+									<li><a href="#">Products</a></li>
+									<li><a href="#">Services</a></li>
 									
 								</ul>
 
@@ -197,9 +197,9 @@
 							
 								<ul>
 
-									<li>Privacy Policy</li>
-									<li>Disclaimer</li>
-									<li>Site Map</li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Disclaimer</a></li>
+									<li><a href="#">Site Map</a></li>
 									
 								</ul>
 
