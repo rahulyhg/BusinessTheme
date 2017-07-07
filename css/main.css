@@ -1,12 +1,53 @@
 /* Default Styles
 ---------------------------------------------------------------------------------------------------- */
 
+.fluid {
+	width: 100%;
+	height: auto;
+}
 
 
 
 /* Header Styles
 ---------------------------------------------------------------------------------------------------- */
 
+.headerNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 15px;
+	top: 12px;
+}
+
+.headerNav ul li {
+	display: inline;
+	padding: 25px 15px 25px 15px;
+}
+
+.headerNav ul li a,
+.headerNav ul li a:visited {
+	color: #FFF;
+	padding: 15px 0 15px 0;
+}
+
+.headerNav ul li:hover {
+	background: rgba(0, 56, 140, 0.8);
+}
+
+.headerNav a {
+	text-decoration: none;
+}
+
+.headerWrapper {
+	background: rgba(0,0,0,.8);
+	padding: 10px 0 10px 0;
+}
+
+.hero {
+	position: absolute;
+	z-index: -1;
+}
 
 
 

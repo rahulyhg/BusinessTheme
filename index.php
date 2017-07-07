@@ -19,23 +19,41 @@
 	
 	<body>
 
-		<div class="container">
-			
-			<div class="row">
+		<img class="hero fluid" src="<?php echo get_template_directory_uri();?>/assets/images/home_hero.jpg" alt="Hero Image">
+
+		<div class="headerWrapper">
+
+			<div class="container">
 				
-				<div class="col-md-6">
+				<div class="row">
+
+					<header>
 					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero doloremque recusandae distinctio sit dolore quaerat quod, ab ad vitae repudiandae necessitatibus nihil consectetur itaque modi ipsa doloribus delectus ipsam placeat!</p>
+						<div class="col-sm-3">
+							
+							<img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="MyNotes Logo" width="45px" height="45px">
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum veritatis excepturi ab voluptatem sed eveniet sequi odit culpa! Delectus, aspernatur, minima. Doloribus nihil accusamus iste, maiores vitae asperiores quos, repellat.</p>
+						</div>
 
-				</div>
+						<div class="col-sm-9">
+								
+							<nav class="headerNav">
 
-				<div class="col-md-6">
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero doloremque recusandae distinctio sit dolore quaerat quod, ab ad vitae repudiandae necessitatibus nihil consectetur itaque modi ipsa doloribus delectus ipsam placeat!</p>
+								<ul>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum veritatis excepturi ab voluptatem sed eveniet sequi odit culpa! Delectus, aspernatur, minima. Doloribus nihil accusamus iste, maiores vitae asperiores quos, repellat.</p>
+									<li><a href="">Home</a></li>
+									<li><a href="">About</a></li>
+									<li><a href="">Products</a></li>
+									<li><a href="">Services</a></li>
+									<li><a href="">Contact</a></li>
+								
+								</ul>
+
+							</nav>
+
+						</div>
+
+					</header>
 
 				</div>
 
