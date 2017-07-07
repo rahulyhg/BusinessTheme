@@ -19,7 +19,9 @@
 	
 	<body>
 
-		<img class="hero fluid" src="<?php echo get_template_directory_uri();?>/assets/images/home_hero.jpg" alt="Hero Image">
+		<!--******************************************************* Start Header Section *******************************************************-->
+
+		<div class="hero" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/home_hero.jpg)"></div>
 
 		<div class="headerWrapper">
 
@@ -54,6 +56,155 @@
 						</div>
 
 					</header>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<!--******************************************************* Start Content Section *******************************************************-->
+
+		<div class="container">
+			
+			<div class="row">
+				
+				<div class="col-md-8">
+					
+					<h1>Page Title</h1>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur placerat nisl nec volutpat. Mauris dictum ligula at libero vestibulum hendrerit. Vestibulum lobortis magna eget arcu iaculis sodales. Donec blandit suscipit tempor. Vivamus aliquet arcu vitae nisl pharetra condimentum. Cras viverra libero odio, sit amet hendrerit diam venenatis sed. In cursus laoreet mi vel molestie. Nulla quis pharetra elit, a scelerisque eros.</p>
+
+					<p>Vivamus in lacus a est aliquet facilisis vitae et lectus. Pellentesque eget elit sed libero consequat tempus a vitae lorem. Proin lacus leo, pellentesque vitae felis vel, vehicula fermentum augue. Sed auctor neque a diam egestas, nec tempor justo scelerisque. Praesent lobortis eros elit. Nunc consequat aliquam magna at dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc sollicitudin molestie purus. Pellentesque dictum felis et mi ornare euismod. Mauris eros lorem, tincidunt et placerat non, egestas quis lectus.</p>
+
+					<p>Praesent a leo aliquam, viverra orci sit amet, elementum ante. Vestibulum ultrices vulputate sollicitudin. Nunc libero elit, imperdiet at felis sed, sagittis pretium risus. Aliquam non efficitur ipsum, vitae vulputate nisi. Quisque vel dignissim lorem. Suspendisse laoreet, nulla at imperdiet laoreet, arcu justo consequat ligula, non fringilla nulla ex nec turpis. Vivamus ut dui vitae diam venenatis ornare blandit non nisl. Sed gravida commodo arcu, non mattis sapien sagittis sed. Proin dignissim bibendum justo quis venenatis. Sed a magna in nisi pellentesque finibus. Nam fermentum fringilla est, ac varius erat. Mauris vestibulum, diam id semper faucibus, dui lacus consequat metus, vitae tempor enim purus at velit. Phasellus et nisi varius, hendrerit neque id, imperdiet tortor. Quisque eu dictum ipsum, nec tempus magna. Mauris dictum aliquam libero, nec ultrices enim.</p>
+
+					<p>Donec bibendum diam ipsum, non tempus nisl iaculis a. Morbi bibendum ac risus id rutrum. Vivamus a bibendum justo. Cras tristique metus ac dui mollis elementum. Nunc sit amet enim id lacus semper accumsan eget at ante. Nullam ornare, ipsum ut interdum molestie, dui risus bibendum eros, eu convallis risus turpis eu dolor. Ut ut magna et ante condimentum blandit at sed magna. Nulla rhoncus, arcu vitae aliquet sagittis, libero urna finibus mauris, ac varius quam enim a sapien. Morbi non euismod ex, ut consectetur nibh. Cras ut lectus venenatis, fringilla urna non, dictum ipsum. Mauris malesuada ultrices sem a varius. In at massa vehicula, malesuada erat ullamcorper, porttitor nisi.</p>
+
+					<p>Morbi leo lectus, malesuada a urna nec, interdum pulvinar tellus. Aenean eu libero ac nisl volutpat iaculis sed a ligula. Morbi molestie hendrerit quam, nec blandit nisl consequat eget. Maecenas mattis risus nec est condimentum, non aliquet massa rutrum. Nulla porta lectus sed mi gravida volutpat. Integer at interdum lectus. Proin sed leo metus. Vestibulum sollicitudin nulla at justo convallis congue. Nam eget ante nisi.</p> 
+
+				</div>
+
+				<div class="col-md-4">
+					
+					<div>
+							
+						<h2>Location</h2>
+
+						<div>
+							
+							<p>2442 W Madison St, Chicago, IL, 60612, USA</p>
+
+						</div>
+	
+					</div>
+
+					<div>
+							
+						<h2>Opening Hours</h2>
+
+						<div>
+							
+							<ul>
+								<li>Monday: 9am - 5pm</li>
+								<li>Tuesday: 9am - 5pm</li>
+								<li>Wednesday: 9am - 5pm</li>
+								<li>Thursday: 9am - 5pm</li>
+								<li>Friday: 9am - 5pm</li>
+								<li>Saturday: 11am - 5pm</li>
+								<li>Sunday: 11am - 5pm</li>
+							</ul>
+
+						</div>
+	
+					</div>
+
+					<div>
+							
+						<h2>Contact Us</h2>
+
+						<div>
+							
+							<ul>
+								<li>Phone</li>
+								<li>+1 312-344-3759</li>
+							</ul>
+
+							<ul>
+								<li>Email</li>
+								<li>user@company.com</li>
+							</ul>
+
+						</div>
+	
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<!--******************************************************* Start Footer Section *******************************************************-->
+		
+		<div class="container">
+			
+			<div class="row">
+				
+				<div class="col-md-3">
+					
+					<ul>
+
+						<li>Home</li>
+						<li>About</li>
+						<li>Contact</li>
+
+					</ul>
+
+				</div>
+
+				<div class="col-md-3">
+					
+					<ul>
+
+						<li>Products</li>
+						<li>Services</li>
+						
+					</ul>
+
+				</div>
+
+				<div class="col-md-3">
+					
+					<ul>
+
+						<li>Privacy Policy</li>
+						<li>Disclaimer</li>
+						<li>Site Map</li>
+						
+					</ul>
+
+				</div>
+
+				<div class="col-md-3">
+					
+					<ul>
+						<li><img src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png" alt="Business on Facebook"></li>
+						<li><img src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png" alt="Business on Twitter"></li>
+						<li><img src="<?php echo get_template_directory_uri();?>/assets/images/youtube.png" alt="Business on Youtube"></li>
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+				
+				<div class="col-md-12">
+					
+					<p>Copyright © 2017 Business Theme | All Rights Reserved | <a href="mailto:user@company.com">Webmaster</a></p>
 
 				</div>
 
