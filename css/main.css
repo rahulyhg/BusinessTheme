@@ -68,18 +68,20 @@ a:link, a:visited, a:hover {
 }
 
 .headerWrapper {
-	background: rgba(0,0,0,.8);
+	background: #000;
 	padding: 10px 0 10px 0;
-	margin-bottom: 520px;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
 }
 
 .hero {
 	width: 100%;
 	height: 550px;
-	position: absolute;
 	z-index: -1;
 	background-position: center center;
 	background-size: cover;
+	margin-bottom: 50px;
 }
 
 .headerNav ul {
@@ -88,9 +90,8 @@ a:link, a:visited, a:hover {
 }
 
 .searchIcon {
-	position: absolute;
-	top: 9px;
-	right: 16px;
+	float: right;
+	padding-top: 7px;
 }
 
 .searchWrapper {
@@ -103,6 +104,14 @@ a:link, a:visited, a:hover {
 	right: 0px;
 	top: 65px;
 	width: 300px;
+}
+
+.searchMenu {
+	display: none;
+}
+
+.burgerButton {
+	display: none;
 }
 
 
@@ -219,14 +228,76 @@ a:link, a:visited, a:hover {
 @media (max-width: 1199px) { 
 
 	/* Place any styles that are specific to tablets and small desktops here */
-
+	
 }
 
 /* Portrait Tablets - sm */
 @media (max-width: 991px) { 
 
 	/* Place any styles that are specific to portrait tablets here */
+	
+	.headerNav ul {
+		position: static;
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
 
+	.headerNav ul li {
+		display: block;
+	}
+
+	.searchIcon {
+		display: none;
+	}
+
+	.headerNav {
+		display: none;
+	}
+
+	.headerNav.showMenu {
+		display: block;
+	}
+
+	.logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.burgerButton {
+		display: block;
+	    width: 32px;
+	    height: 25px;
+	    position: absolute;
+	    left: 15px;
+	    margin-top: 10px;
+   }
+
+   .searchMenu {
+   		display: block;
+	   	position: absolute;
+	   	right: 15px;
+	   	top: 8px;
+	   	margin: 0;
+	   	padding: 0;
+   }
+
+   .searchWrapper.showForm {
+		display: block;
+		position: absolute;
+		right: 0px;
+		top: 65px;
+		width: 100%;
+	}
+
+	.headerNav ul {
+		margin-top: 30px;
+	}
+
+	.headerNav ul li {
+		padding: 15px 0 15px 0;
+		text-align: center;
+	}
 }
 
 /* Landscape Mobile Phones - xs */

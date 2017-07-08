@@ -21,19 +21,22 @@
 
 		<!--******************************************************* Start Header Section *******************************************************-->
 
-		<div class="hero" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/home_hero.jpg)"></div>
-
 		<div class="headerWrapper">
 
 			<div class="container">
-				
+
 				<div class="row">
 
 					<header>
 					
 						<div class="col-md-3">
+
+							<a href="#"><img class="burgerButton" src="<?php echo get_template_directory_uri();?>/assets/images/burgerButton.png" alt="MyNotes Logo" width="45px" height="45px"></a>
 							
-							<a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="MyNotes Logo" width="45px" height="45px"></a>
+							<a href="#"><img class="logo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="MyNotes Logo" width="45px" height="45px"></a>
+
+							<a href="#"><img class="searchMenu" src="<?php echo get_template_directory_uri();?>/assets/images/search.png" alt="Search My Business"></a>
+
 
 						</div>
 
@@ -51,9 +54,9 @@
 								
 								</ul>
 
+								<a href="#"><img class="searchIcon" src="<?php echo get_template_directory_uri();?>/assets/images/search.png" alt="Search My Business"></a>
+
 							</nav>
-							
-							<a href="#"><img class="searchIcon" src="<?php echo get_template_directory_uri();?>/assets/images/search.png" alt="Search My Business"></a>
 
 						</div>
 
@@ -70,6 +73,10 @@
 			</div>
 
 		</div>
+
+
+		<div class="hero" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/home_hero.jpg)"></div>
+
 
 
 		<!--******************************************************* Start Content Section *******************************************************-->
