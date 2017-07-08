@@ -8,6 +8,7 @@
   */ 
   
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts_and_styles' );
+add_theme_support("html5",array("search-form"));
   
 function add_theme_scripts_and_styles() {
 

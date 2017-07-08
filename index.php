@@ -31,13 +31,13 @@
 
 					<header>
 					
-						<div class="col-sm-3">
+						<div class="col-md-3">
 							
-							<img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="MyNotes Logo" width="45px" height="45px">
+							<a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="MyNotes Logo" width="45px" height="45px"></a>
 
 						</div>
 
-						<div class="col-sm-9">
+						<div class="col-md-9">
 								
 							<nav class="headerNav">
 
@@ -52,10 +52,18 @@
 								</ul>
 
 							</nav>
+							
+							<a href="#"><img class="searchIcon" src="<?php echo get_template_directory_uri();?>/assets/images/search.png" alt="Search My Business"></a>
 
 						</div>
 
 					</header>
+	
+					<div class="searchWrapper">
+						
+						<?php get_search_form(); ?>
+
+					</div>
 
 				</div>
 
