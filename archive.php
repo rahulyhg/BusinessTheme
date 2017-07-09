@@ -1,21 +1,20 @@
-		<?php
-			/*
-				Tenplate Name: Archives
-			*/
-			get_header(); 
+<?php 
+	/*
+	Template Name: Archives
+	*/
 
-		?>
+	get_header(); 
+?>
 
+<!--******************************************************* Start Content Section *******************************************************-->
 
-		<!--******************************************************* Start Content Section *******************************************************-->
-
-		<div class="container">
+<div class="container">
+	
+	<div class="row">
+		
+		<div class="col-md-8">
 			
-			<div class="row">
-				
-				<div class="col-md-8">
-					
-					<?php the_post(); ?>          
+			<?php the_post(); ?>          
 
 				<?php if ( is_day() ) : ?>
 				                <h1 class="page-title"><?php printf( __( 'Daily Archives: <span>%s</span>', 'hbd-theme' ), get_the_time(get_option('date_format')) ) ?></h1>
@@ -72,64 +71,60 @@
 				                </div><!-- #nav-below -->
 			<?php } ?>
 
+		</div>
+
+
+		<!--******************************************************* Start Sidebar Section *******************************************************-->
+
+		<div class="col-md-4">
+			
+			<div class="sidebarWrapper">
+					
+				<h2 class="sidebarTitle">Location</h2>
+
+				<div class="sidebarBody">
+					
+					<p>2442 W Madison St, Chicago, IL, 60612, USA</p>
+
 				</div>
 
+			</div>
 
-				<!--******************************************************* Start Sidebar Section *******************************************************-->
-
-				<div class="col-md-4">
+			<div class="sidebarWrapper">
 					
-					<div class="sidebarWrapper">
-							
-						<h2 class="sidebarTitle">Location</h2>
+				<h2 class="sidebarTitle">Opening Hours</h2>
 
-						<div class="sidebarBody">
-							
-							<p>2442 W Madison St, Chicago, IL, 60612, USA</p>
+				<div class="sidebarBody">
+					
+					<ul>
+						<li>Monday: 9am - 5pm</li>
+						<li>Tuesday: 9am - 5pm</li>
+						<li>Wednesday: 9am - 5pm</li>
+						<li>Thursday: 9am - 5pm</li>
+						<li>Friday: 9am - 5pm</li>
+						<li>Saturday: 11am - 5pm</li>
+						<li>Sunday: 11am - 5pm</li>
+					</ul>
 
-						</div>
+				</div>
 
-					</div>
+			</div>
 
-					<div class="sidebarWrapper">
-							
-						<h2 class="sidebarTitle">Opening Hours</h2>
+			<div class="sidebarWrapper">
+					
+				<h2 class="sidebarTitle">Contact Us</h2>
 
-						<div class="sidebarBody">
-							
-							<ul>
-								<li>Monday: 9am - 5pm</li>
-								<li>Tuesday: 9am - 5pm</li>
-								<li>Wednesday: 9am - 5pm</li>
-								<li>Thursday: 9am - 5pm</li>
-								<li>Friday: 9am - 5pm</li>
-								<li>Saturday: 11am - 5pm</li>
-								<li>Sunday: 11am - 5pm</li>
-							</ul>
+				<div class="sidebarBody">
+					
+					<ul>
+						<li>Phone</li>
+						<li><a href="tel:+1 312-344-3759">+1 312-344-3759</a></li>
+					</ul>
 
-						</div>
-
-					</div>
-
-					<div class="sidebarWrapper">
-							
-						<h2 class="sidebarTitle">Contact Us</h2>
-
-						<div class="sidebarBody">
-							
-							<ul>
-								<li>Phone</li>
-								<li><a href="tel:+1 312-344-3759">+1 312-344-3759</a></li>
-							</ul>
-
-							<ul>
-								<li>Email</li>
-								<li><a href="mailto:user@company.com">user@company.com</a></li>
-							</ul>
-
-						</div>
-
-					</div>
+					<ul>
+						<li>Email</li>
+						<li><a href="mailto:user@company.com">user@company.com</a></li>
+					</ul>
 
 				</div>
 
@@ -137,4 +132,8 @@
 
 		</div>
 
-		<?php get_footer(); ?>
+	</div>
+
+</div>
+
+<?php get_footer(); ?>
