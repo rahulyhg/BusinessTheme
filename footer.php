@@ -14,13 +14,7 @@
 
 							<nav class="footerNav">
 							
-								<ul>
-
-									<li><a href="#">Home</a></li>
-									<li><a href="#">About</a></li>
-									<li><a href="#">Contact</a></li>
-
-								</ul>
+								<?php wp_nav_menu( array( 'theme_location' => 'footer-first' ) ); ?>
 
 							</nav>
 
@@ -30,12 +24,7 @@
 
 							<nav class="footerNav">
 								
-								<ul>
-
-									<li><a href="#">Products</a></li>
-									<li><a href="#">Services</a></li>
-									
-								</ul>
+								<?php wp_nav_menu( array( 'theme_location' => 'footer-second' ) ); ?>
 
 							</nav>
 
@@ -45,13 +34,7 @@
 
 							<nav class="footerNav">
 							
-								<ul>
-
-									<li><a href="#">Privacy Policy</a></li>
-									<li><a href="#">Disclaimer</a></li>
-									<li><a href="#">Site Map</a></li>
-									
-								</ul>
+								<?php wp_nav_menu( array( 'theme_location' => 'footer-third' ) ); ?>
 
 							</nav>
 

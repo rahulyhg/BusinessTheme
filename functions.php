@@ -57,3 +57,16 @@ function add_theme_scripts_and_styles() {
   }
   
 */
+
+//Register Footer Menu's
+function register_footer_menus() {
+  register_nav_menus(
+    array(
+      'header-main' => __( 'Main Menu' ),
+      'footer-first' => __( 'First Footer Menu' ),
+      'footer-second' => __( 'Second Footer Menu' ),
+      'footer-third' => __( 'Third Footer Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_footer_menus' );

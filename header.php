@@ -44,15 +44,7 @@
 								
 							<nav class="headerNav">
 
-								<ul>
-
-									<li><a href="">Home</a></li>
-									<li><a href="">About</a></li>
-									<li><a href="">Products</a></li>
-									<li><a href="">Services</a></li>
-									<li><a href="">Contact</a></li>
-								
-								</ul>
+								<?php wp_nav_menu( array( 'theme_location' => 'header-main' ) ); ?>
 
 								<a href="#"><img class="searchIcon" src="<?php echo get_template_directory_uri();?>/assets/images/search.png" alt="Search My Business"></a>
 
