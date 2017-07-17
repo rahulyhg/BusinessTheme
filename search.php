@@ -14,10 +14,12 @@
 	  					<?php while(have_posts()): the_post(); ?>
 	    
 	              			<?php get_template_part("content", "search"); ?>
-	          
-	           			<?php endwhile; ?>
-  
-          			<?php endif; ?>
+
+          			<?php endwhile; else : ?>
+
+						<p><?php echo 'Sorry, no posts matched your criteria.'; ?></p>
+
+					<?php endif; ?>
 
 				</div>
 
