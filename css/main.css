@@ -136,20 +136,20 @@ a:link, a:visited, a:hover {
 	font-size: 1.5em;
 }
 
-.sidebarBody {
+.textwidget {
 	background: #DEDDDD;
 	padding: 10px 20px 0 20px;
 	font-size: 1em;
 }
 
-.sidebarBody ul {
+.textwidget ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	padding-bottom: 10px;
 }
 
-.sidebarBody ul li {
+.textwidget ul li {
 	padding: 2px 0 2px 0;
 }
 
