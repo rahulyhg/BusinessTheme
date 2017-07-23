@@ -33,6 +33,13 @@ a:link, a:visited, a:hover {
 	color: #123cd1;
 }
 
+li {
+	font-family: "Verdana", sans-serif;
+	font-size: 1em;
+	line-height: 160%;
+	padding-bottom: 5px;
+}
+
 
 
 /* Header Styles
@@ -49,7 +56,8 @@ a:link, a:visited, a:hover {
 
 .headerNav ul li {
 	display: inline;
-	padding: 25px 15px 24px 15px;
+	padding: 24px 15px 23px 15px;
+	font-size: 0.95em;
 }
 
 .headerNav ul li a,
@@ -121,6 +129,10 @@ a:link, a:visited, a:hover {
 
 .pageTitle {
 	margin-bottom: 10px;
+}
+
+.content p {
+	margin: 10px 0 0 0;
 }
 
 

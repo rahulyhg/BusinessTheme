@@ -16,7 +16,15 @@
 
 				<div class="col-md-7">
 					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deserunt maxime aspernatur delectus adipisci dicta ipsam quo, odit, fugit similique porro maiores, cum praesentium aliquid sequi. Doloribus animi, architecto laborum!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ratione nisi facere eaque aperiam labore, suscipit pariatur reiciendis corrupti voluptatibus? Pariatur voluptates voluptatibus nam adipisci dignissimos! Error, iusto assumenda aperiam?. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem molestias, cum, sit velit ducimus fuga at tenetur eos officiis architecto explicabo, voluptates repellat veniam aperiam ipsa expedita itaque animi veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aspernatur esse cumque in delectus eum, maiores eveniet deleniti recusandae velit quam aut et, porro iste! Quibusdam quos beatae et, illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio, sunt cupiditate aperiam nemo eius, saepe amet. Natus mollitia, quasi ipsam libero eligendi in, fuga quibusdam numquam asperiores, repudiandae commodi.</p>
+					<?php if ( have_posts() ) : ?>
+
+	  					<?php while(have_posts()): the_post(); ?>
+	    	              
+	              			<?php the_content(); ?>
+	          
+	           			<?php endwhile; ?>
+  
+          			<?php endif; ?>
 
 				</div>
 

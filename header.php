@@ -33,7 +33,7 @@
 
 							<a href="#"><img class="burgerButton" src="<?php echo get_template_directory_uri();?>/assets/images/burgerButton.png" alt="MyNotes Logo" width="45px" height="45px"></a>
 							
-							<a href="#"><img class="logo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="MyNotes Logo" width="45px" height="45px"></a>
+							<a href="<?php echo get_home_url(); ?>"><img class="logo" src="<?php echo get_template_directory_uri();?>/assets/images/logo.png" alt="MyNotes Logo" width="45px" height="45px"></a>
 
 							<a href="#"><img class="searchMenu" src="<?php echo get_template_directory_uri();?>/assets/images/search.png" alt="Search My Business"></a>
 

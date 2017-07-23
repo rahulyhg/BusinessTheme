@@ -15,7 +15,11 @@
 	    
 	              			<h1><?php the_title(); ?></h1>
 	              
-	              			<?php the_content(); ?>
+	              			<div class="content">
+	              				
+								<?php the_content(); ?>
+
+	              			</div>
 	          
 	           			<?php endwhile; ?>
   
