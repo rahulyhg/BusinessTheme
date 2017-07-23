@@ -135,6 +135,116 @@ li {
 	margin: 10px 0 0 0;
 }
 
+.blogList {
+	margin: 15px 0 0 0;
+}
+
+.authorExtra {
+	margin-top: 30px;
+}
+
+.authorExtra span {
+	font-size: 1.1em;
+}
+
+
+
+
+/* Comment Styles
+---------------------------------------------------------------------------------------------------- */
+
+.commentlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.comment-awaiting-moderation {
+	display: none;
+}
+
+.commentlist br {
+	display: none;
+}
+
+.comment-author {
+	background: #123c81;
+	padding: 0 0 10px 15px;
+}
+
+.author.vcard a {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.comment-meta {
+	background: #123c81;
+	padding-top: 0;
+    padding-left: 67px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+
+.comment-meta a {
+	color: #FFF;
+}
+
+.fn {
+	margin-left: 15px;
+	color: #FFF;
+}
+
+.says {
+	color: #FFF;
+}
+
+.avatar {
+	margin: 15px 0 0 0;
+}
+
+.thread-even, .thread-odd {
+	margin-bottom: 30px;
+}
+
+.comment-body {
+	background: #CCC;
+}
+
+.comment-body p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15px;
+}
+
+.reply {
+	margin: 10px 0 0 15px;
+	padding-bottom: 15px;
+}
+
+#comment {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#author {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#url {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#reply-title {
+    display: none;
+}
+
 
 
 
