@@ -9,8 +9,8 @@
 				
 				<div class="col-md-5">
 						
-					<h1>Company Name</h1>
-					<h2>Welcome</h2>
+					<h1 class="homeH1">Company Name</h1>
+					<h2 class="welcome">Welcome</h2>
 
 				</div>
 
@@ -42,26 +42,45 @@
 				<div class="row">
 					
 					<div class="col-md-4">
+
+						<div class="tile">
+
+							<div class="front">
+
+								<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_1.jpg" alt="Product One">
+								
+							</div>
+
+							<div class="back" style="background:blue;">
+
+								<h2>Product 1</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, praesentium temporibus nihil sed, quam perferendis quod, amet impedit nobis quos, vitae veritatis corporis laboriosam commodi! Quisquam enim necessitatibus laborum eligendi.</p>
+								<a href="#">Learn More</a>
+								
+							</div>
 						
-						<h2>Product One</h2>
-						<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_1.jpg" alt="Product One">
-						<a href="#"><p>Learn More</p></a>
+
+						</div>
 
 					</div>
 
 					<div class="col-md-4">
+
+						<div class="tile">
 						
-						<h2>Product One</h2>
-						<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_2.jpg" alt="Product One">
-						<a href="#"><p>Learn More</p></a>	
+							<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_2.jpg" alt="Product One">
+
+						</div>	
 					
 					</div>
 
 					<div class="col-md-4">
+
+						<div class="tile">
 						
-						<h2>Product One</h2>
-						<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_3.jpg" alt="Product One">
-						<a href="#"><p>Learn More</p></a>
+							<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_3.jpg" alt="Product One">
+
+						</div>
 
 					</div>
 

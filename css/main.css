@@ -40,23 +40,41 @@ li {
 	padding-bottom: 5px;
 }
 
+.headerNav ul li.current_page_item {
+	background: rgba(0, 56, 140, 0.8);
+}
+
 
 
 /* Header Styles
 ---------------------------------------------------------------------------------------------------- */
 
+.headerNav a {
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+.headerWrapper {
+	background: #000;
+	padding: 10px 0 5px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+
 .headerNav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	position: absolute;
-	right: 80px;
-	top: 12px;
+	position: relative;
+	top: 13px;
+	right: 0px;
+	left: 250px;
 }
 
 .headerNav ul li {
 	display: inline;
-	padding: 24px 15px 23px 15px;
+	padding: 27px 15px 24px 15px;
 	font-size: 0.95em;
 }
 
@@ -70,17 +88,32 @@ li {
 	background: rgba(0, 56, 140, 0.8);
 }
 
-.headerNav a {
-	text-decoration: none;
-	font-size: 1.1em;
+.headerNav ul ul {
+	display: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 100%;
+	width: 200px;
+	left: 0px;
 }
 
-.headerWrapper {
-	background: #000;
-	padding: 10px 0 10px 0;
-	position: fixed;
-	width: 100%;
-	z-index: 99;
+.headerNav ul ul li {
+	display: block;
+}
+
+.headerNav ul ul ul {
+	display: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 200px;
+}
+
+.headerNav ul ul ul li {
+	display: block;
 }
 
 .hero {
@@ -92,14 +125,12 @@ li {
 	margin-bottom: 50px;
 }
 
-.headerNav ul {
-	border-right: 1px solid #FFF;
-	padding-right: 20px;
-}
-
 .searchIcon {
 	float: right;
-	padding-top: 7px;
+	position: relative;
+	top: -10px;
+	border-left: 1px solid #FFF;
+	padding-left: 30px;
 }
 
 .searchWrapper {
@@ -141,11 +172,72 @@ li {
 
 .authorExtra {
 	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .authorExtra span {
 	font-size: 1.1em;
 }
+
+.homeH1 {
+	margin: 0;
+	padding: 0;
+	margin-top: 5px;
+}
+
+.welcome {
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+	font-style: italic;
+}
+
+
+
+/* Tile Styles
+---------------------------------------------------------------------------------------------------- */
+
+.tileWrapper {
+	margin: 50px 0 50px 0;
+	padding: 55px 0 50px 0;
+	background: #DDD;
+	perspective: 1000px;
+}
+
+.tile:hover {
+	transform: rotateY(180deg);
+}
+
+.tile {
+	cursor: pointer;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+.back {
+	transform: rotateY(180deg);
+}
+
+.tile, .front, .back {
+	width: 100%;
+	height: 100%;
+}
+
 
 
 
@@ -350,7 +442,10 @@ li {
 @media (max-width: 1199px) { 
 
 	/* Place any styles that are specific to tablets and small desktops here */
-	
+
+	.headerNav ul {
+		left: 110px;
+	}
 }
 
 /* Portrait Tablets - sm */
@@ -358,6 +453,10 @@ li {
 
 	/* Place any styles that are specific to portrait tablets here */
 	
+	.headerWrapper {
+		padding-bottom: 10px;
+	}
+
 	.headerNav ul {
 		position: static;
 		border: none;
