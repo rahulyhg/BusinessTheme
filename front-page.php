@@ -97,7 +97,7 @@
 				
 			<div class="row">
 				
-				<div class="col-md-12">
+				<div class="col-md-12 services">
 					
 					<h1>Our Services</h1>
 
@@ -107,21 +107,21 @@
 
 			<div class="row">
 				
-				<div class="col-md-4">
+				<div class="col-md-4 service">
 					
 					<img src="<?php echo get_template_directory_uri();?>/assets/images/service_1.jpg" alt="Service One">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid saepe nesciunt est nemo, provident dolorem aperiam a molestiae magni nulla maxime porro, esse, ducimus, ipsum dolores repellat itaque iusto vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam velit iusto explicabo facilis, ea, itaque autem rem cum quam aliquid voluptate alias quibusdam doloribus vitae amet, eaque aliquam consequatur eius.</p>
 
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4 service">
 					
 					<img src="<?php echo get_template_directory_uri();?>/assets/images/service_2.jpg" alt="Service Two">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid saepe nesciunt est nemo, provident dolorem aperiam a molestiae magni nulla maxime porro, esse, ducimus, ipsum dolores repellat itaque iusto vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam velit iusto explicabo facilis, ea, itaque autem rem cum quam aliquid voluptate alias quibusdam doloribus vitae amet, eaque aliquam consequatur eius.</p>
 
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4 service">
 					
 					<img src="<?php echo get_template_directory_uri();?>/assets/images/service_3.jpg" alt="Service Three">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid saepe nesciunt est nemo, provident dolorem aperiam a molestiae magni nulla maxime porro, esse, ducimus, ipsum dolores repellat itaque iusto vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam velit iusto explicabo facilis, ea, itaque autem rem cum quam aliquid voluptate alias quibusdam doloribus vitae amet, eaque aliquam consequatur eius.</p>
@@ -136,7 +136,13 @@
 
 		<!--******************************************************* Start Services Section *******************************************************-->
 
-		<iframe width="100%" height="450px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcdtXHpqvD4gR4pTkJQDGZHU&key=AIzaSyB0MY76SOV79MCuyV1SGLLsHghkvRvJPIQ " allowfullscreen></iframe> 
+		<div class="map-wrap">
+        
+        	<div class="overlay" onClick="style.pointerEvents='none'"></div>
+
+			<iframe width="100%" height="450px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcdtXHpqvD4gR4pTkJQDGZHU&key=AIzaSyB0MY76SOV79MCuyV1SGLLsHghkvRvJPIQ" allowfullscreen></iframe>
+
+		</div>
 
 
 
