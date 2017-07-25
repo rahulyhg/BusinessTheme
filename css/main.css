@@ -19,7 +19,7 @@ h2 {
 
 h3 {
 	font-size: 1.5em;
-	color: #FFF;
+	color: #202020;
 	font-style: italic;
 }
 
@@ -162,6 +162,10 @@ li {
 	margin-bottom: 10px;
 }
 
+/*.content {
+	margin-bottom: 30px;
+}*/
+
 .content p {
 	margin: 10px 0 0 0;
 }
@@ -170,9 +174,14 @@ li {
 	margin: 15px 0 0 0;
 }
 
+.capitalise {
+    text-transform: uppercase;
+}
+
+
 .authorExtra {
 	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .authorExtra span {
@@ -203,6 +212,10 @@ li {
   	height: 450px;
   	position: absolute;
   	top: 0px;
+}
+
+.searchContent {
+	margin-bottom: 15px;
 }
 
 
@@ -348,6 +361,10 @@ li {
     margin-bottom: 10px;
 }
 
+#comments {
+	margin-bottom: 15px;
+}
+
 #author {
     width: 100%;
     margin-bottom: 10px;
@@ -365,6 +382,10 @@ li {
 
 #reply-title {
     display: none;
+}
+
+#submit {
+	margin-bottom: 30px;
 }
 
 

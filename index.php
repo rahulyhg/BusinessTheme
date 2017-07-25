@@ -36,6 +36,7 @@
 							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><h1><?php the_title(); ?></h1></a>
 							<div class="author"><p>Posted by <?php echo get_the_author(); ?> | <?php echo the_date("F j Y"); ?></p></div>
 							<?php the_excerpt() ?>
+							<p>Posted in <?php echo get_the_category_list(', '); ?> | <a href="<?php comments_link(); ?>">Leave a comment</a></p>
 
 						</div>
 		                
