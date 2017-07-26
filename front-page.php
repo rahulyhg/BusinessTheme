@@ -45,20 +45,7 @@
 
 						<div class="tile">
 
-							<div class="front">
-
-								<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_1.jpg" alt="Product One">
-								
-							</div>
-
-							<div class="back" style="background:blue;">
-
-								<h2>Product 1</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, praesentium temporibus nihil sed, quam perferendis quod, amet impedit nobis quos, vitae veritatis corporis laboriosam commodi! Quisquam enim necessitatibus laborum eligendi.</p>
-								<a href="#">Learn More</a>
-								
-							</div>
-						
+							<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_1.jpg" alt="Product One">
 
 						</div>
 
