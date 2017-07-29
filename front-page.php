@@ -43,31 +43,55 @@
 					
 					<div class="col-md-4">
 
-						<div class="tile">
+						<div class="view">
 
-							<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_1.jpg" alt="Product One">
+							<img src="<?php echo get_template_directory_uri();?>/assets/images/tile_1.jpg" alt="Product 1">
 
-						</div>
+							<div class="mask">
+								
+								<h2>Product One</h2>
+				        		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum ex, dolore.</p>
+				        		<a class="info" href="#">Learn More</a>
+
+							</div>			        		
+				        				      	
+				      	</div>
 
 					</div>
 
 					<div class="col-md-4">
 
-						<div class="tile">
-						
-							<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_2.jpg" alt="Product One">
+						<div class="view">
 
-						</div>	
+							<img src="<?php echo get_template_directory_uri();?>/assets/images/tile_2.jpg" alt="Product 1">
+
+							<div class="mask">
+								
+								<h2>Product One</h2>
+				        		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum ex, dolore.</p>
+				        		<a class="info" href="#">Learn More</a>
+
+							</div>			        		
+				        				      	
+				      	</div>
 					
 					</div>
 
 					<div class="col-md-4">
 
-						<div class="tile">
-						
-							<img class="fluid" src="<?php echo get_template_directory_uri();?>/assets/images/tile_3.jpg" alt="Product One">
+						<div class="view">
 
-						</div>
+							<img src="<?php echo get_template_directory_uri();?>/assets/images/tile_3.jpg" alt="Product 1">
+
+							<div class="mask">
+								
+								<h2>Product One</h2>
+				        		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum ex, dolore.</p>
+				        		<a class="info" href="#">Learn More</a>
+
+							</div>			        		
+				        				      	
+				      	</div>
 
 					</div>
 
