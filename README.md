@@ -28,5 +28,5 @@ Business Theme is a theme designed for oranisations that need a website that is 
 
 ## Disclaimer
 
-[Icons were downloaded from FlatIcon](https://www.flaticon.com/)
+[Icons were downloaded from FlatIcon](https://www.flaticon.com/) <br>
 [Images were downloaded from Pexels](https://www.pexels.com/)
