@@ -25,3 +25,8 @@ Business Theme is a theme designed for oranisations that need a website that is 
 
 ### 1.0
 * Released: July 3, 2017
+
+## Disclaimer
+
+[Icons were downloaded from FlatIcon](https://www.flaticon.com/)
+[Images were downloaded from Pexels](https://www.pexels.com/)
